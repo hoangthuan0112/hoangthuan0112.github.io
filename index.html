@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <title>Hoang Thuan</title>
+        <link rel="icon" href="./icon/favicon.svg"/>
+        <link rel="stylesheet" href="css/jquery.fullpage.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jquery.fullpage.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+
+        <!--Navigation-->
+        <div class="header container">
+            <div>
+                <a class="logo" data-menuanchor="home" href="#home">Hoang Thuan</a>
+            </div>
+            <div>
+                <div class="nav_desktop">
+                    <ul id="menu">
+                        <li class="active" data-menuanchor="home"><a href="#home">Home</a></li>
+                        <li data-menuanchor="portfolio"><a href="#portfolio">Portfolio</a></li>
+                        <li data-menuanchor="services"><a href="#services">Services</a></li>
+                        <li data-menuanchor="contacts"><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="nav_mobile">
+                    <div id="nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    <div id="overlay">
+                        <ul id="menu">
+                            <li data-menuanchor="home"><a href="#home">Home</a></li>
+                            <li data-menuanchor="portfolio"><a href="#portfolio">Portfolio</a></li>
+                            <li data-menuanchor="services"><a href="#services">Services</a></li>
+                            <li data-menuanchor="contacts"><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="container footer_left">
+            <div class="text_vertical">
+                © hoangthuan0112
+            </div>
+        </div>
+        <div class="container footer_right">
+            <div>
+                <div class="text_horizontal">
+                    Find me
+                </div>
+                <div>
+                    <a target="_blank" href="https://dribbble.com/hoangthuan0112"><img class="icon" src="./svg/Dribbble.svg" onmouseover="this.src='./svg/Dribbble_hover.svg'" onmouseout="this.src='./svg/Dribbble.svg'"></a>
+    
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.behance.net/hoangthuan0112"><img class="icon" src="./svg/Behance.svg" onmouseover="this.src='./svg/Behance_hover.svg'" onmouseout="this.src='./svg/Behance.svg'"></a>
+    
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.facebook.com/hoangthuan0112"><img class="icon" src="./svg/Facebook.svg" onmouseover="this.src='./svg/Facebook_hover.svg'" onmouseout="this.src='./svg/Facebook.svg'"></a>
+    
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.messenger.com/t/hoangthuan0112"><img class="icon" src="./svg/Messenger.svg" onmouseover="this.src='./svg/Messenger_hover.svg'" onmouseout="this.src='./svg/Messenger.svg'"></a>
+    
+                </div>
+                <div>
+                    <a target="_blank" href="https://join.skype.com/invite/poVNuWQnDC4d"><img class="icon" src="./svg/Skype.svg" onmouseover="this.src='./svg/Skype_hover.svg'" onmouseout="this.src='./svg/Skype.svg'"></a>
+    
+                </div>
+                <div>
+                    <a target="_blank" href="https://join.skype.com/invite/poVNuWQnDC4d"><img class="icon" src="./svg/Telegram.svg" onmouseover="this.src='./svg/Telegram_hover.svg'" onmouseout="this.src='./svg/Telegram.svg'"></a>
+    
+                </div>
+            </div>
+        </div>
+
+        <!--Scrollbar-->
+        <!--<div class="progress-nav">
+            <ul id="menu">
+            <li data-menuanchor="home" class="active"></li>
+            <li data-menuanchor="portfolio"></li>
+            <li data-menuanchor="services"></li>
+            <li data-menuanchor="contacts"></li>
+            </ul>
+        </div>-->
+
+        <!--Body-->
+        <main id="fullpage">
+
+            <section class="section" data-name="home" data-anchor="home" id="1">
+                <div class="body_home">
+                    <div class="body_title">
+                        <a class="hero_title">
+                            Hello, I’m Hoang Thuan
+                        </a>
+                        <a class="hero_title">
+                            I’m working as UX/UI Designers.
+                        </a>
+                        <a class="subtitle">
+                            I will help you build a website, app, or 2D motion. I deploy excellence agile product teams on demand.
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <video data-autoplay muted loop playsinline class="bg_home">
+                        <source src="./video/bg_home.mp4" type="video/mp4">
+                    </video>                    
+                    <!--<img class="bottom scale_vertical" src="./svg/Earth.svg">
+                    <img class="center_bot" src="./svg/Fire.svg">
+                    <img class="left scale_img_horizontal" src="./image/[Illustration]_Left.png">
+                    <img class="right scale_img_horizontal" src="./image/[Illustration]_Right.png">
+                    <img class="top_left" src="./svg/[Illustration]_Top-Left.svg">
+                    <img class="top_right" src="./svg/[Illustration]_Top-Right.svg">
+                    <img class="bottom_left" src="./svg/[Illustration]_Bottom-Left.svg">
+                    <img class="bottom_right" src="./svg/[Illustration]_Bottom-Right.svg">-->
+                </div>
+            </section>
+
+            <section class="section dark_blue_1" data-name="portfolio" data-anchor="portfolio" id="2">
+                <div class="body_portfolio">
+                    <div class="body_title">
+                        <a class="hero_title">
+                            My Projects
+                        </a>
+                        <a class="subtitle">
+                            Here are some interesting points in my projects...
+                        </a>
+                    </div>
+                        <div class="asset responsive">
+                            <a target="_blank" href="https://dribbble.com/shots/7206110-Travel-app"><img class="projects" src="./projects/im1.png"/></a>         
+                            <a target="_blank" href="https://dribbble.com/shots/9177633-Solar-system-UI"><img class="projects" src="./projects/im2.gif"/></a>
+                            <a target="_blank" href="https://dribbble.com/shots/11474107-Babilala-app"><img class="projects" src="./projects/im3.png"/></a>     
+                            <a target="_blank" href="https://dribbble.com/shots/10199240-Portfolio-showcase"><img class="projects" src="./projects/im4.gif"/></a>     
+                            <a target="_blank" href="https://www.behance.net/gallery/104719365/Dashboard-Health"><img class="projects" src="./projects/im5.png"/></a>     
+                            <a target="_blank" href="#"><img class="projects" src="./projects/im6.png"/></a>     
+                        </div>
+                </div>
+            </section>
+
+            <section class="section dark_blue_1" data-name="services" data-anchor="services" id="3">
+                <div class="body_services">
+                    <div class="body_title">
+                        <a class="hero_title">
+                            My services
+                        </a>
+                        <a class="subtitle">
+                            <p>Whether you are working on a new startup or have an existing product. I'd love the opportunity to help you and your team solve your most challenging problems. </p>
+                        </a>
+                    </div>
+                    <div class="services">
+                        <div class="cell">
+                            <img class="img" src="./svg/Services_Web.svg">
+                            <p>Web design</p>
+                        </div>
+                        <div class="cell">
+                            <img class="img" src="./svg/Services_App.svg">
+                            <p>App design</p>
+                        </div>
+                        <div class="cell">
+                            <img class="img" src="./svg/Services_Motion.svg">
+                            <p>Motion design</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section dark_blue_1" data-name="contacts" data-anchor="contacts" id="4">
+                <div class="body_contacts">
+                    <div class="body_title">
+                        <a class="hero_title">
+                            Are you ready to work together?
+                        </a>
+                        <a class="subtitle">
+                            I’m always interested in hearing about new projects and opportunities.
+                            You can tell me about the problems you are trying to solve. I'd love to listen and see if there's 
+                            anything I can do to help you.
+                        </a>
+                    </div>
+                    <div class="body_input">
+                        <form action="https://send.pageclip.co/88fDOwJKCdIQ5UEABu8OIHw7JCnZGuoM" class="pageclip-form form-contact" method="post">
+                            <div>
+                                <input class="input-contacts" placeholder="Name" name="name" type="text" spellcheck="false" data-ms-editor="true" value="" />
+                            </div>
+                            <div>
+                                <input class="input-contacts" placeholder="Email" name="email" type="email" value="" />
+                            </div>
+                            <div>
+                                <textarea class="input-contacts-lg" placeholder="Messenger" name="message" type="text" spellcheck="false" data-ms-editor="true" value="" /></textarea>
+                            </div>
+                            <button type="submit" class="pageclip-form__submit button">
+                                <span>Send message</span>
+                            </button>
+                            </form>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+       <script type="text/javascript" src="./js/slick.min.js"></script>
+       <script type="text/javascript" src=""></script>
+       <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    </body>
+</html>
