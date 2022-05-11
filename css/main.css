@@ -1,3 +1,30 @@
+@font-face {
+    font-family: Product Sans;
+    src:
+    url(ProductSans-Black.woff) format('woff'),
+    url(ProductSans-BlackItalic.woff) format('woff'),
+    url(ProductSans-Bold.woff) format('woff'),
+    url(ProductSans-Bold.woff) format('woff'),
+    url(ProductSans-BoldItalic.woff) format('woff'),
+    url(ProductSans-Italic.woff) format('woff'),
+    url(ProductSans-Light.woff) format('woff'),
+    url(ProductSans-LightItalic.woff) format('woff'),
+    url(ProductSans-Medium.woff) format('woff'),
+    url(ProductSans-MediumItalic.woff) format('woff'),
+    url(ProductSans-Regular.woff) format('woff'),
+    url(ProductSans-Thin.woff) format('woff'),
+    url(ProductSans-ThinItalic.woff) format('woff');
+}
+@font-face {
+    font-family: Google Sans;
+    src:
+    url(GoogleSans-Bold.woff) format('woff'),
+    url(GoogleSans-BoldItalic.woff) format('woff'),
+    url(GoogleSans-Italic.woff) format('woff'),
+    url(GoogleSans-Medium.woff) format('woff'),
+    url(GoogleSans-MediumItalic.woff) format('woff'),
+    url(GoogleSans-Regular.woff) format('woff');
+}
 /* Color */
 .dark_blue_1{
     background: #15202B;
