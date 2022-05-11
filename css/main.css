@@ -79,8 +79,8 @@
         font-family: 'Product Sans','Google Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 56px;
-        line-height: 68px;
+        font-size: 32px;
+        line-height: 44px;
         text-align: center;
         color: #E1E8ED;
     }
@@ -92,6 +92,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
+        text-align: center;
         /* identical to box height, or 125% */
         color: #AAB8C2;
     }
@@ -178,8 +179,8 @@
         font-family: 'Product Sans','Google Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 56px;
-        line-height: 68px;
+        font-size: 32px;
+        line-height: 44px;
         text-align: center;
         letter-spacing: -0.8px;
         color: #E1E8ED;
