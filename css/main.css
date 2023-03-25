@@ -1,59 +1,91 @@
+/* Define font faces */
 @font-face {
     font-family: Product Sans;
-    src: url(/font/ProductSans-Black.woff) format('woff'),url(/font/ProductSans-BlackItalic.woff) format('woff'),url(/font/ProductSans-Bold.woff) format('woff'),url(/font/ProductSans-BoldItalic.woff) format('woff'),url(/font/ProductSans-Italic.woff) format('woff'),url(/font/ProductSans-Light.woff) format('woff'),url(/font/ProductSans-LightItalic.woff) format('woff'),url(/font/ProductSans-Medium.woff) format('woff'),url(/font/ProductSans-MediumItalic.woff) format('woff'),url(/font/ProductSans-Regular.woff) format('woff'),url(/font/ProductSans-Thin.woff) format('woff'),url(/font/ProductSans-ThinItalic.woff) format('woff')
+    src: url(/font/ProductSans-Black.woff) format('woff'),
+         url(/font/ProductSans-BlackItalic.woff) format('woff'),
+         url(/font/ProductSans-Bold.woff) format('woff'),
+         url(/font/ProductSans-BoldItalic.woff) format('woff'),
+         url(/font/ProductSans-Italic.woff) format('woff'),
+         url(/font/ProductSans-Light.woff) format('woff'),
+         url(/font/ProductSans-LightItalic.woff) format('woff'),
+         url(/font/ProductSans-Medium.woff) format('woff'),
+         url(/font/ProductSans-MediumItalic.woff) format('woff'),
+         url(/font/ProductSans-Regular.woff) format('woff'),
+         url(/font/ProductSans-Thin.woff) format('woff'),
+         url(/font/ProductSans-ThinItalic.woff) format('woff');
 }
 
 @font-face {
     font-family: Google Sans;
-    src: url(/font/GoogleSans-Bold.woff) format('woff'),url(/font/GoogleSans-BoldItalic.woff) format('woff'),url(/font/GoogleSans-Italic.woff) format('woff'),url(/font/GoogleSans-Medium.woff) format('woff'),url(/font/GoogleSans-MediumItalic.woff) format('woff'),url(/font/GoogleSans-Regular.woff) format('woff')
+    src: url(/font/GoogleSans-Bold.woff) format('woff'),
+         url(/font/GoogleSans-BoldItalic.woff) format('woff'),
+         url(/font/GoogleSans-Italic.woff) format('woff'),
+         url(/font/GoogleSans-Medium.woff) format('woff'),
+         url(/font/GoogleSans-MediumItalic.woff) format('woff'),
+         url(/font/GoogleSans-Regular.woff) format('woff');
+}
+
+:root {
+    --dark-blue-1: #15202B;
+    --dark-blue-2: #173750;
+    --dark-blue-3: #657786;
+    --dark-grey-1: #99AAB5;
+    --dark-grey-2: #2E3036;
+    --dark-grey-3: #23272A;
+    --light-blue-1: #F5F8FA;
+    --light-blue-2: #E1E8ED;
+    --light-blue-3: #AAB8C2;
+    --blue: #1DA1F2;
+    --white: #FFF;
+    --black: #000;
 }
 
 .dark_blue_1 {
-    background: #15202B
+    background: var(--dark-blue-1);
 }
 
 .dark_blue_2 {
-    background: #173750
+    background: var(--dark-blue-2);
 }
 
 .dark_blue_3 {
-    background: #657786
+    background: var(--dark-blue-3);
 }
 
 .dark_grey_1 {
-    background: #99AAB5
+    background: var(--dark-grey-1);
 }
 
 .dark_grey_2 {
-    background: #2E3036
+    background: var(--dark-grey-2);
 }
 
 .dark_grey_3 {
-    background: #23272A
+    background: var(--dark-grey-3);
 }
 
 .light_blue_1 {
-    background: #F5F8FA
+    background: var(--light-blue-1);
 }
 
 .light_blue_2 {
-    background: #E1E8ED
+    background: var(--light-blue-2);
 }
 
 .light_blue_3 {
-    background: #AAB8C2
+    background: var(--light-blue-3);
 }
 
 .blue {
-    background: #1DA1F2
+    background: var(--blue);
 }
 
 .white {
-    background: #FFF
+    background: var(--white);
 }
 
 .black {
-    background: #000
+    background: var(--black);
 }
 
 @media (max-width:340px) {
@@ -75,7 +107,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
-        line-height: 44px;
+        line-height: 40px;
         text-align: center;
         color: #E1E8ED
     }
@@ -85,7 +117,7 @@
         padding-top: 8px;
         font-family: 'Google Sans';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
@@ -188,7 +220,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
-        line-height: 44px;
+        line-height: 40px;
         text-align: center;
         letter-spacing: -.8px;
         color: #E1E8ED
@@ -302,7 +334,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
-        line-height: 68px;
+        line-height: 60px;
         text-align: center;
         letter-spacing: -.8px;
         color: #E1E8ED
@@ -313,7 +345,7 @@
         padding-top: 12px;
         font-family: 'Google Sans';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
@@ -411,8 +443,8 @@
         font-family: 'Product Sans','Google Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 56px;
-        line-height: 68px;
+        font-size: 60px;
+        line-height: 60px;
         text-align: center;
         letter-spacing: -.8px;
         color: #E1E8ED
@@ -424,7 +456,7 @@
         padding-top: 12px;
         font-family: 'Google Sans';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
@@ -536,7 +568,7 @@
         padding-top: 12px;
         font-family: 'Google Sans';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
@@ -637,7 +669,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
-        line-height: 68px;
+        line-height: 60px;
         text-align: center;
         color: #E1E8ED
     }
@@ -649,9 +681,9 @@
         padding-top: 12px;
         font-family: 'Google Sans';
         font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
+        font-weight: 300;
+        font-size: px;
+        line-height: 24px;
         text-align: center;
         color: #AAB8C2
     }
