@@ -76,11 +76,11 @@
 .subtitle{
     display: block;
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: Medium;
     font-size: 18px;
     line-height: 24px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.1px;
     padding-top: 16px;
     color: rgba(255, 255, 255, 0.6) !important;
 }
